@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Pazartesi</title>
+
+<meta name="keywords" content="..." />
+<meta name="description" content="..." />
+
+
+
+</head>
+
+
+<body>
+<h1>Dumlıpınar Üniversitesi</h1>
+<h2>Dumlıpınar Üniversitesi</h2>
+<h3>Dumlıpınar Üniversitesi</h3>
+<h4>Dumlıpınar Üniversitesi</h4>
+<h5>Dumlıpınar Üniversitesi</h5>
+<h6>Dumlıpınar Üniversitesi</h6>
+
+
+<p>Burada Paragraf metni yer alacak</p>
+<p>Burada               Konu yer alacak</p>
+<p>Burada örnekler yer alacak</p>
+<p>Burada Açıklama yer alacak</p>
+
+<hr />
+<p>Burada Açıklama yer alacak</p>
+<hr />
+<p>Burada bir şeyler olur artık
+<hr /> Burda da olsun bir şeyler
+
+
+
+
+
+</body>
+
+
+
+</html>
