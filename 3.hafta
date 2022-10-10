@@ -1,0 +1,89 @@
+<html>
+<head>
+ <title>3.Hafta</title>
+		  <meta charst-;"utf-8"  />
+		  <meta=name "keybord"  content=dpü   kütahya dumlupınar"
+		  <meta=name "description" content="ilk sayfa123"  />
+
+</head>
+<body>
+<h4>Sıralı Liste</h4>
+<!--ordered list stil ve nereden başlayacağı ve geriden başlayacağını ayarlayabiliyoruz-->
+<ol type= "1" start="50" reversed >
+<li>fenerbahçe</li>
+<li>galatasay</li>
+<li>giresunspor</li>
+<li>beşiktaş</li>
+<li>trabzon</li>
+
+</ol>
+
+
+<ol type="A" start="12" reversed >
+
+<li>fenerbahçe
+<li>galatasay</li>
+<li>giresunspor</li>
+<li>beşiktaş</li>
+<li>trabzon</li>
+
+</ol>
+
+<ol type="i" start="50" >
+
+<li>fenerbahçe
+<li>galatasay</li>
+<li>giresunspor</li>
+<li>beşiktaş</li>
+<li>trabzon</li>
+
+</ol>
+
+
+<ol type="a" start="3" >
+
+
+<li>fenerbahçe
+<li>galatasay</li>
+<li>giresunspor</li>
+<li>beşiktaş</li>
+<li>trabzon</li>
+
+</ol>
+
+<!--sırasız liste -->
+<h4>Sırasız Liste</h4>
+<ul>
+<li>fenervahçe</li>
+<li>galatasaray</li>
+<li>giresunspor</li>
+<li>beşiktaş</li>
+<li>trabzon</li>
+
+</ul>
+
+
+<img
+src="images.png"
+width="250"
+height="250"
+alt="Dpü"
+
+
+
+/>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
