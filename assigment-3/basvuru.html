@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <title>Başvuru Formu</title>
+    <meta =charset="utf-8">
+
+</head>
+
+<body>
+    <form action="" method="post">
+        <table align="center" border="1">
+            <tr>
+                <th colspan="2">Genel Bilgileriniz</th>
+            </tr>
+            <tr>
+                <td>Ad:</td>
+                <td><input type="text" name="ad"></td>
+            </tr>
+            <tr>
+                <td>Soy Ad:</td>
+                <td><input type="text" name="soyad"></td>
+            </tr>
+            <tr>
+                <td>Doğum Tarihiniz:</td>
+                <td><input type="date" name="dogumtarihi"></td>
+            </tr>
+            <tr>
+                <td>Cinsiyetiniz:</td>
+                <td><input type="radio" id="Erkek" name="cinsiyet" value="Erkek">
+                    <label for="Erkek">Erkek</label>
+                    <input type="radio" id="Kadın" name="cinsiyet" value="Kadın">
+                    <label for="Kadın">Kadın</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Doğum Yeriniz:</td>
+                <td><input type="text" name="dogumyeri"></td>
+            </tr>
+            <tr>
+                <td>Medeni durumunuz:</td>
+                <td><input type="radio" id="Evli"  name="medenidurum" value="Evli" >
+                    <label for="Evli">Evli</label>
+                    <input type="radio" id="Bekar" name="medenidurum" value="Bekar">
+                    <label for="Bekar">Bekar</label>
+                </td>
+                <tr>
+                    <td>Çocuğunuz Var mı?:</td>
+                    <td><input type="radio" id="var" name="cocuk" value="var">
+                        <label for="var">Var</label>
+                        <input type="radio" id="yok" name="cocuk" value="yok">
+                        <label for="yok">Yok</label>
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <th colspan="2">İletişim ve Adres Bilgileriniz</th>
+            </tr>
+            <tr>
+                <td>Cep Telefonu Numaranız:</td>
+                <td><input type="text" name="cepno"></td>
+            </tr>
+            <tr>
+                <td>E-posta Adresiniz:</td>
+                <td><input type="text" name="eposta"></td>
+            </tr>
+            <tr>
+                <td>Ev Adresiniz:</td>
+                <td><input type="text" name="adres"></td>
+            </tr>
+            <tr>
+                <th colspan="2">Diğer Bilgiler</th>
+            </tr>
+            <tr>
+                <td>İstediğiniz İş Pozisyonu:</td>
+                <td><input type="text" name="ıs_pos"></td>
+            </tr>
+            <tr>
+                <td>Ehliyetiniz</td>
+                <td><input type="radio" id="var_ehliyet" name="ehliyet_durum" value="EhliyetimVar">
+                    <label for="var_ehliyet">Var</label>
+                    <input type="radio" id="yok_ehliyet" name="ehliyet_durum" value="EhliyetimYok">
+                    <label for="yok_ehliyet">Yok</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Öğrenim durumunuz:</td>
+                <td><select name="ogrm_durumu" id="ogrm_durumu">
+                    <option selected disabled>Lütfen Seçiniz</option>
+                    <option value="1">İlkokul</option>
+                    <option value="2">Ortaokul</option>
+                    <option value="3">Lise</option>
+                    <option value="4">Önlisans</option>
+                    <option value="5">Yükseklisans</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Çalışmak İstediğiniz Alanları Seçiniz:br <br>(Birden Fazla Seçim Yapabilirsiniz) </td>
+                <td>
+                    
+                    <input type="checkbox" id="siber_guvenlik" name="alanlar" value="siber">
+                <label for="siber_guvenlik">Siber Güvenlik</label>
+    <br>
+                <input type="checkbox" id="web_tasarım" name="alanlar" value="web">
+                <label for="web_tasarım">Web Tasarımı</label>
+    <br>           
+    
+                <input type="checkbox" id="oyun_tasarım" name="alanlar" value="oyun">
+                <label for="oyun_tasarım">Oyun Tasarımı</label>  
+    <br>             
+                <input type="checkbox" id="yapay_zeka" name="alanlar" value="yzeka">
+                <label for="yapay_zeka">Yapay Zeka</label>    
+    
+    
+    
+    
+    
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="2"><input type="submit" value="Gönder"></td>
+                
+            </tr>
+    
+        </table>
+
+
+
+
+
+
+
+
+
+    </form>
+   
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
