@@ -1,0 +1,681 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+#header{
+    list-style: none;
+    border-radius: 20px;
+    background-color: rgb(173, 173, 173);
+    width: 1260px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    
+    
+
+    
+    
+}
+
+#homepage{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(173, 173, 173);
+
+    float: left;
+    transition: 0.3s;
+}
+
+
+
+a{
+    text-decoration:none;
+    
+}
+
+.headerhover:hover{
+    transform: scale(1.2);
+}
+
+
+#header-menu1{
+    width: 100px;
+    height: 25px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+
+#header-menu1:hover{
+    transform:scale(1.2);
+}
+
+
+#header-menu2{
+    width: 100px;
+    height: 25px;
+   
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+#header-menu3{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu4{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+#header-menu5{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu6{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu7{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 65px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+
+
+
+#hosgeldin{
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+    height: 300px;
+    font-size: 85px;
+    padding-top: 20px;
+}
+
+
+#hosgeldin-1{
+    background-color:rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+#metin1{
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+}
+
+#kazanmak{
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+    height: 100px;
+    font-size: 30px;
+    padding-top: 40px;
+    
+}
+
+h4{
+    text-align: center;
+}
+
+#haber{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    float: left;
+    transition: 0.5s;
+    
+    
+}
+
+#haber:hover{
+    transform: scale(1.2);
+    background: rgba(138, 235, 235, 0.607);
+
+}
+
+#haberresim{
+    
+    width: 150px;
+    height: 150px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    
+}
+
+#deger{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    text-align: center;
+    font-size: 19px;
+    width: 200px;
+    height: 400px;
+    float: left;
+    transition: 0.5s;
+    
+    
+}
+
+#deger:hover{
+    transform: scale(1.2);
+    background-color: rgba(138, 235, 235, 0.607);
+}
+
+#grafikresim{
+    
+    width: 200px;
+    height: 150px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    margin-top: 70px;
+
+}
+
+#egitim{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 400px;
+    float: left;
+    transition: 0.5s;
+    
+    
+
+}
+
+#egitim:hover{
+transform: scale(1.2);
+background-color: rgba(138, 235, 235, 0.607);
+
+}
+
+#educationresim{
+    width: 150px;
+    height: 150px;
+    padding-left: 18px;
+    padding-top: 15px;
+    margin-top: 60px;
+}
+
+#makale{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(138, 235, 235);
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 400px;
+    float: left;
+    transition: 0.5s;
+    
+}
+
+#makale:hover{
+    transform: scale(1.2);
+    background: rgba(138, 235, 235, 0.607);
+}
+
+#makaleresim{
+    width: 150px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 80px;
+}
+
+/*anasayfa bitti/////////////*/
+
+
+
+#container{
+    width: auto;
+    height: 1500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+    
+}
+
+#icerik{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+#icerik:hover{
+    transform: scale(1.1);
+}
+
+#icerikfoto{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+    transition: 0.3s;
+
+}
+
+#icerikfoto img{
+    width: 500px;
+    height: 400px;
+}
+
+
+
+#hey{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    clear: both;
+}
+
+#icerik2foto{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    
+
+}
+
+
+
+#icerik2foto img{
+    width: 450px;
+    height: 400px;
+}
+
+#icerik2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: 45px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+
+
+
+}
+
+#icerik2:hover{
+    transform: scale(1.1);
+}
+
+#hey2{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    clear: both;
+}
+
+#icerik3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+    
+
+}
+
+#icerik3:hover{
+    transform: scale(1.1);
+}
+
+#icerik3foto{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    float: right;
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: 45px;
+    
+
+
+}
+
+#icerik3foto img{
+    width: 600px;
+    height: 300px;
+}
+
+
+/*kripto sayfası///////////*/
+
+#container2{
+    width: auto;
+    height: 2300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+#soru{
+    border-radius: 20px;
+    width: 900px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 200px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#cizgi{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    clear: both;
+}
+
+#kriptocontent{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 450px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+#kriptofoto{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 450px;
+    width: 650px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+
+}
+
+#kriptofoto img{
+    height: 400px;
+    width: 400px;
+    padding-left: 120px;
+    padding-top: 10px;
+
+}
+
+#kriptocontent1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 450px;
+    width: 650px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+#kriptofoto1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 450px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+
+}
+
+#kriptofoto1 img{
+    width: 450px;
+    height: auto;
+    padding-left: 40px;
+}
+
+#kriptocontent2{
+    border-radius: 20px;
+    height: 650px;
+    width: 550px;
+    
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+#kriptocontent2foto{
+    height: 600px;
+    width: 500px;
+    margin-left: 700px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#kriptocontent2foto img{
+    height: 600px;
+    margin-left: 0px;
+    width: 500px;
+}
+
+#soru2{
+    border-radius: 20px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#soru2 p{
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+
+/*haberlerrrr sayfası*/
+
+#container3{
+    width: auto;
+    height: 2300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto; 
+
+}
+
+.haber{
+    border-radius: 20px;
+    background-color: rgba(205, 197, 197, 0.733);
+    height: 300px;
+    width: 250px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 50px;
+    transition: 0.3s;
+    
+}
+.haber img{
+    border-radius: 20px;
+    width: 230px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.haber:hover{
+    height: 350px;
+
+}
+
+.devam{
+    border-radius: 20px;
+    margin-top: 130px;
+    visibility: hidden;
+    margin-left: 25px;
+    
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+
+.devam p{
+    border-radius: 10px;
+    background-color: rgba(100, 77, 57, 0.425);
+    transition: 0.5s;
+    opacity: 0;
+    width: 180px;
+    color: azure;
+    
+
+}
+
+.haber:hover .devam{
+    visibility: visible;
+    
+}
+
+.haber:hover .devam p{
+    opacity: 1;
+    width: 200px;
+
+   
+    
+}
+
+#hey3{
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    clear: both;
+    margin-top: 100px;
+
+}
+
+h4{
+    color: rgb(91, 91, 91);
+}
+
+
+/*ANALİZ SAYFASI */
+
+#container5{
+    width: auto;
+    height: 2300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+#analizbaslik{
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#analizbaslik h2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.analizler{
+    border-radius: 20px;
+    background-color: red;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 1000px;
+}
+
+.analizler h3{
+    margin-left: 10px;
+    text-align: left;
+    font-size: 30px;
+    background-color: blueviolet;
+}

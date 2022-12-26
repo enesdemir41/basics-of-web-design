@@ -1,0 +1,174 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+#header{
+    list-style: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 1260px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    
+    
+
+    
+    
+}
+
+#homepage{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+
+    float: left;
+    transition: 0.3s;
+}
+
+
+
+a{
+    text-decoration:none;
+    
+}
+
+.headerhover:hover{
+    transform: scale(1.2);
+}
+
+
+#header-menu1{
+    width: 100px;
+    height: 25px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+
+#header-menu1:hover{
+    transform:scale(1.2);
+}
+
+
+#header-menu2{
+    width: 100px;
+    height: 25px;
+   
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+#header-menu3{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu4{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+#header-menu5{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu6{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 70px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+#header-menu7{
+    width: 100px;
+    height: 25px;
+    
+    margin-left: 65px;
+    float: left;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.drpmenu{
+    margin-top: 0;
+    margin-left: 0px;
+    background-color: rgb(168, 87, 87);
+    height: 200px;
+    width: 140px;
+    visibility: hidden;
+    
+}
+
+.drpmenu ul {
+    background-color: rgb(36, 13, 152);
+    width: 100px;
+    height: 200px;
+    clear: both;
+    padding-top: 20px;
+    
+}
+
+.drpmenu ul li{
+    background-color: rgb(151, 98, 98);
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+
+#header-menu6:hover .drpmenu{
+    visibility: visible;
+
+}
+
+#line{
+    background-color: blueviolet;
+    clear: both;
+}
+
+#container4{
+    background-color: red;
+}
+
+#ayar{
+    background-color: blue;
+}
+
+#tradingview_26317{
+    background-color: black;
+    margin-left: 0px;
+    width: 600px;
+}
